@@ -6,16 +6,16 @@ interface NewsComponentProps {
     imageSrc: string;
     date: string;
     title: string;
-    badgeClass: string;
+    badgeColor: string;
 }
 
-const NewsItem: React.FC<NewsComponentProps> = ({ badge, imageSrc, date, title, badgeClass }) => {
+const NewsItem: React.FC<NewsComponentProps> = ({ badge, imageSrc, date, title, badgeColor }) => {
     return (
         <div className="relative flex-grow mt-[40px] flex flex-col gap-[8px]">
             <div className={
                 clsx(
                     "absolute z-10 right-[16px] top-[16px] px-[9px] py-[4px] rounded-full text-sm text-white",
-                    badgeClass
+                    badgeColor
                 )}>
                 {badge}
             </div>

@@ -104,7 +104,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[40px] text-center">
+            <div className="mt-[32px] text-center">
                 <span className={clsx(inter.className, "text-xs text-bold text-gray-800")}>
                     {TRANSLATION.FOOTER.COPYRIGHT}
                 </span>
