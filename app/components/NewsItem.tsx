@@ -11,7 +11,7 @@ interface NewsComponentProps {
 const NewsItem: React.FC<NewsComponentProps> = ({ badge, image, date, title, badgeClass }) => {
     return (
         <div className="relative flex-grow mt-[40px] flex flex-col gap-[8px]">
-            <div className={`absolute z-10 right-[16px] top-[16px] px-[9px] py-[4px] rounded-full text-sm text-white font-medium ${badgeClass}`}>
+            <div className={`absolute z-10 right-[16px] top-[16px] px-[9px] py-[4px] rounded-full text-sm text-white ${badgeClass}`}>
                 {badge}
             </div>
             <Image className="w-full rounded-[16px]" alt="service_image" src={image} width={480} height={270}/>

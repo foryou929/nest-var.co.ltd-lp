@@ -18,7 +18,7 @@ const ServiceSubItem: React.FC<ButtonComponentProps> = ({ type, title, image, de
             </div>
             <div className={`mt-[8px] xl:mt-0 gap-[24px] ${type == "secondary" && "xl:order-1"}`}>
                 <h3 className="hidden xl:block text-2xl font-bold text-white">{title}</h3>
-                <p className="mt-[8px] xl:mt-[24px] text-white font-medium">{description}</p>
+                <p className="mt-[8px] xl:mt-[24px] text-white">{description}</p>
                 <Button className="mt-[24px] xl:mt-[40px]" type="primary">
                     {TRANSLATION.SERVICES.SEE_DETAILS}
                 </Button>

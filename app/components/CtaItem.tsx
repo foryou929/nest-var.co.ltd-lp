@@ -21,7 +21,7 @@ const CtaItem: React.FC<CtaItemProps> = ({ children, type, title, frame, href, b
                     </p>
                     <h3 className="absolute left-0 top-0 text-2xl font-bold text-white">{title}</h3>
                 </div>
-                <p className="mt-[24px] font-medium text-white">
+                <p className="mt-[24px] text-white">
                     {children}
                 </p>
             </div>

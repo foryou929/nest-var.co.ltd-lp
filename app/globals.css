@@ -22,17 +22,12 @@
   }
 }
 
-@font-face {
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 100 900;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/noto-sans-jp:vf@latest/japanese-wght-normal.woff2) format('woff2-variations');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Noto Sans JP';
   margin: 0;
+  font-family: "Noto Sans JP", Inter !important;
+  font-weight: 500;
   color: #212121;
 }
 

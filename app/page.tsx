@@ -15,7 +15,7 @@ export default function Home() {
           <h2 className="text-2xl xl:text-6xl font-bold">
             {TRANSLATION.HEADER.TITLE}
           </h2>
-          <div className="mt-[24px] text-xl font-medium">
+          <div className="mt-[24px] text-xl">
             <h3 className="hidden xl:block">
               {TRANSLATION.HEADER.SUBTITLE_LP}
             </h3>

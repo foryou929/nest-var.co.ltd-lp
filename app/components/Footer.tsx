@@ -14,11 +14,11 @@ const Footer = () => {
                     <h4 className="text-xl font-bold text-white">
                         {TRANSLATION.FOOTER.COMPANY_NAME}
                     </h4>
-                    <div className="font-medium text-white">
+                    <div className="text-white">
                         <p>{TRANSLATION.FOOTER.COMPANY_NAME}</p>
                         <p>{TRANSLATION.FOOTER.ADDRESS}</p>
                     </div>
-                    <div className="flex gap-[8px] font-medium text-gray-800">
+                    <div className="flex gap-[8px] text-gray-800">
                         <Link className="border-b border-b-gray-800" href={"https://twitter.com/RaretechO"}>
                             {TRANSLATION.FOOTER.TWITTER}
                         </Link>
@@ -33,16 +33,16 @@ const Footer = () => {
                             <h6 className="font-bold text-white">
                                 {TRANSLATION.FOOTER.SERVICE}
                             </h6>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.SERVICES.IT_SCHOOL_RARETECH}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.SERVICES.INFRASTRUCTURE_LEARNING_SERVICE_ENVADER}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.SERVICES.SYSTEM_APPLICATION_DEVELOPMENT}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.SERVICES.WEB_PRODUCTION}
                             </p>
                         </div>
@@ -50,19 +50,19 @@ const Footer = () => {
                             <h6 className="font-bold text-white">
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCE}
                             </h6>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.MISSION}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.VISION}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.VALUE}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.LIST_OF_OFFICERS}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.COMPANY_PROFILE}
                             </p>
                         </div>
@@ -70,10 +70,10 @@ const Footer = () => {
                             <h6 className="font-bold text-white">
                                 {TRANSLATION.FOOTER.RECRUIT}
                             </h6>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.RECRUITS.APPLICATION_REQUIREMENTS}
                             </p>
-                            <p className="font-medium text-gray-800">
+                            <p className="text-gray-800">
                                 {TRANSLATION.FOOTER.RECRUITS.REPRESENTATIVE_MESSAGE}
                             </p>
                         </div>
