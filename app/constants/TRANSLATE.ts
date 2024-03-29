@@ -8,8 +8,9 @@ export default {
         DOCUMENT: "資料ダウンロード"
     },
     HEADER: {
-        TITLE: "テクノロジーを通じて、夢や目標を実現できる 環境を提供します",
-        SUBTITLE: "IT教育、システム開発から 企業を支援する テクノロジーカンパニーです。",
+        TITLE: "テクノロジーを通じて、\n夢や目標を実現できる\n環境を提供します",
+        SUBTITLE_LP: "IT教育、システム開発から企業を支援する\nテクノロジーカンパニーです。",
+        SUBTITLE_SP: "IT教育、システム開発から\n企業を支援する\nテクノロジーカンパニーです。",
         VIEW_BUSINESS_DETAIL: "事業内容を見る",
     },
     SERVICES: {
@@ -26,12 +27,12 @@ export default {
             SUBTITLE: "受託開発事業",
         },
         IT_SCHOOL_RARETECH: {
-            TITLE: "ITスクール RareTECH",
+            TITLE: "ITスクール\nRareTECH",
             IMAGE: "/img/05.png",
             DESCRIPTION: "希少型エンジニアを育成するITスクールです。プログラミングに限らず、ネットワークやLinuxまで、徹底して基礎に拘るカリキュラムです。",
         },
         INFRASTRUCTURE_LEARNING_SERVICE_ENVADER: {
-            TITLE: "インフラ学習サービス エンベーダー",
+            TITLE: "インフラ学習サービス\nエンベーダー",
             IMAGE: "/img/06.png",
             DESCRIPTION: "日本初の環境構築型のインフラ学習サービスです。Linux、データベース、サイバーセキュリティ等の学習が可能です。",
         },
@@ -88,18 +89,18 @@ export default {
         },
     },
     CTA: {
-        TITLE: "業界・規模問わず多くの企業様にご利用いただいております。まずはお気軽にご相談ください。",
+        TITLE: "業界・規模問わず多くの企業様にご利用いただいております。\nまずはお気軽にご相談ください。",
         INQUIRY: {
             TITLE: "お問い合わせ",
             FRAME: "CONTACT",
             BUTTON: "お問い合わせ",
-            DESCRIPTION: "IT全般についてのご相談をお受けしております。カウンセリング、見積もり作成ともに無料でご対応いたしますので、お気軽にご相談ください。"
+            DESCRIPTION: "IT全般についてのご相談をお受けしております。\nカウンセリング、見積もり作成ともに無料でご対応いたしますので、お気軽にご相談ください。"
         },
         MATERIAL_DOWNLOAD: {
             TITLE: "資料ダウンロード",
             FRAME: "DOCUMENT",
             BUTTON: "資料ダウンロード",
-            DESCRIPTION: "会社案内、法人エンジニア研修に関するPDF資料をご用意しております。一覧ページよりお受け取りください。",
+            DESCRIPTION: "会社案内、法人エンジニア研修に関するPDF資料をご用意しております。\n一覧ページよりお受け取りください。",
         }
     },
     FOOTER: {
