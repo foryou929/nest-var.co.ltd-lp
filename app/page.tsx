@@ -23,7 +23,7 @@ export default function Home() {
               {TRANSLATION.HEADER.SUBTITLE_SP}
             </h3>
           </div>
-          <Button className="mt-[64px]" type="primary">
+          <Button className="mt-[64px]" type="primary" size="xl">
             {TRANSLATION.HEADER.VIEW_BUSINESS_DETAIL}
           </Button>
         </div>

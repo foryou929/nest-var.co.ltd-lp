@@ -36,12 +36,12 @@ const Menu: React.FC<MenuComponentProps> = ({ className, isToggleMenu }) => {
             </ul>
             <div className="mt-[40px] xl:mt-0 flex flex-col xl:flex-row gap-[8px]">
                 <Link href={"/contact"}>
-                    <Button className="w-full xl:w-[184px]" type="primary">
+                    <Button className="w-full xl:w-[184px]" type="primary" size="xs">
                         {TRANSLATION.MENU.CONTACT}
                     </Button>
                 </Link>
                 <Link href={"/document"}>
-                    <Button className="w-full xl:w-[184px] border border-black" type="secondary">
+                    <Button className="w-full xl:w-[184px] border border-black" type="secondary" size="xs">
                         {TRANSLATION.MENU.DOCUMENT}
                     </Button>
                 </Link>
