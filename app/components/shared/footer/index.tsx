@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Button from "./Button";
-
-import TRANSLATION from "../constants/TRANSLATE";
+import Button from "@/app/components/button"
+import TRANSLATION from "@/app/constants/translates";
 
 const Footer = () => {
     return (
@@ -14,9 +13,9 @@ const Footer = () => {
                     <h4 className="text-xl font-bold text-white">
                         {TRANSLATION.FOOTER.COMPANY_NAME}
                     </h4>
-                    <div className="text-white">
-                        <p>{TRANSLATION.FOOTER.COMPANY_NAME}</p>
-                        <p>{TRANSLATION.FOOTER.ADDRESS}</p>
+                    <div>
+                        <p className="text-white">{TRANSLATION.FOOTER.COMPANY_NAME}</p>
+                        <p className="text-white">{TRANSLATION.FOOTER.ADDRESS}</p>
                     </div>
                     <div className="flex gap-[8px] text-gray-800">
                         <Link className="border-b border-b-gray-800" href={"https://twitter.com/RaretechO"}>

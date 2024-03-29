@@ -1,25 +1,18 @@
 import clsx from 'clsx';
 import type { Metadata } from "next";
-import { Inter, Noto_Sans_JP } from "next/font/google";
+
 import "./globals.css";
 
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "@/app/components/shared/footer";
+import Header from "@/app/components/shared/header";
+import { notoSansJP } from '@/app/constants/font';
 
+import TRANSLATION from '@/app/constants/translates';
 
 export const metadata: Metadata = {
-  title: "var株式会社",
-  description: "var株式会社",
+  title: TRANSLATION.TITLE,
+  description: TRANSLATION.DESCRIPTION,
 };
-
-const inter = Inter({
-  subsets: ["latin"]
-});
-
-const notoSansJP = Noto_Sans_JP({
-  subsets: ['latin'],
-  variable: '--font-noto-sans-jp',
-})
 
 export default function RootLayout({
   children,
@@ -27,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="jp" className={clsx(inter.className, notoSansJP.className, 'font-sans')}>
+    <html lang="jp" className={clsx(notoSansJP.className, 'font-sans')}>
       <body>
         <Header />
         {children}

@@ -1,8 +1,8 @@
+import clsx from 'clsx';
 import Link from 'next/link'
 
-import Button from "./Button"
-
-import TRANSLATION from '../constants/TRANSLATE';
+import Button from "@/app/components/button"
+import TRANSLATION from '@/app/constants/translates';
 
 interface MenuComponentProps {
     className?: string;
@@ -11,7 +11,11 @@ interface MenuComponentProps {
 
 const Menu: React.FC<MenuComponentProps> = ({ className, isToggleMenu }) => {
     return (
-        <div className={`${isToggleMenu ? "block px-[16px] xl:px-[40px]" : "hidden"} xl:flex gap-[40px] flex-col xl:flex-row ${className}`}>
+        <div className={clsx(
+            isToggleMenu ? "block px-[16px] xl:px-[40px]" : "hidden",
+            "xl:flex gap-[40px] flex-col xl:flex-row",
+            className
+        )}>
             <ul className="flex mt-[24px] xl:mt-0 flex-col xl:flex-row gap-[24px] xl:items-center">
                 <li className="font-bold">
                     <Link href={"/service"}>
@@ -46,7 +50,7 @@ const Menu: React.FC<MenuComponentProps> = ({ className, isToggleMenu }) => {
                     </Button>
                 </Link>
             </div>
-        </div>
+        </div >
     )
 }
 

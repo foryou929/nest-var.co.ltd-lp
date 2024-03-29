@@ -24,16 +24,9 @@
 
 body {
   margin: 0;
+  white-space: pre-line;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
   font-weight: 500;
   color: #212121;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  white-space: pre-line;
 }

@@ -1,4 +1,6 @@
-export default {
+const TRANSLATION = {
+    TITLE: "var株式会社",
+    DESCRIPTION: "var株式会社",
     MENU: {
         SERVICE: "サービス",
         CORPORATE_INTELLIGENCE: "企業情報",
@@ -28,22 +30,18 @@ export default {
         },
         IT_SCHOOL_RARETECH: {
             TITLE: "ITスクール\nRareTECH",
-            IMAGE: "/img/05.png",
             DESCRIPTION: "希少型エンジニアを育成するITスクールです。プログラミングに限らず、ネットワークやLinuxまで、徹底して基礎に拘るカリキュラムです。",
         },
         INFRASTRUCTURE_LEARNING_SERVICE_ENVADER: {
             TITLE: "インフラ学習サービス\nエンベーダー",
-            IMAGE: "/img/06.png",
             DESCRIPTION: "日本初の環境構築型のインフラ学習サービスです。Linux、データベース、サイバーセキュリティ等の学習が可能です。",
         },
         SYSTEM_APPLICATION_DEVELOPMENT: {
             TITLE: "システム・アプリケーション開発",
-            IMAGE: "/img/07.png",
             DESCRIPTION: "要件定義から実装、運用まで、フルスクラッチにてアプリケーションを開発します。クラウドネイティブ開発をメインとしております。",
         },
         WEB_PRODUCTION: {
             TITLE: "Web制作",
-            IMAGE: "/img/08.png",
             DESCRIPTION: "会社HPやサービスLPなど幅広いジャンルのWebサイトを制作いたします。ノーコードを利用するため、素早い納品が可能です。",
         },
     },
@@ -52,37 +50,31 @@ export default {
         SUBTITLE: "お知らせ",
         SEE_LIST: "一覧を見る",
         HOMEPAGE: {
-            IMAGE: "/img/09.png",
             DATE: "2023.08.17",
             TITLE: "ホームページをリニューアルしました。",
             BADGE: "その他",
         },
         TRAINING_PLAN: {
-            IMAGE: "/img/10.png",
             DATE: "2023.03.01",
             TITLE: "ITスクールRareTECHより、SES・人材企業様向け研修プランをリリースしました。",
             BADGE: "RareTECH",
         },
         ENVADER: {
-            IMAGE: "/img/11.png",
             DATE: "2022.10.05",
             TITLE: "エンベーダーの利用人数が5000名を突破しました。",
             BADGE: "エンベーダー",
         },
         SYSTEM_AND_APPLICATION_DEVELOPMENT: {
-            IMAGE: "/img/12.png",
             DATE: "2022.09.11",
             TITLE: "システム・アプリケーション開発の受託開発事業を開始しました。",
             BADGE: "システム・アプリケーション開発",
         },
         WEB_PRODUCTION: {
-            IMAGE: "/img/13.png",
             DATE: "2023.05.16",
             TITLE: "Web制作の受託開発事業を開始しました。",
             BADGE: "Web制作",
         },
         STUDENTS_ATTENDING: {
-            IMAGE: "/img/14.png",
             DATE: "2022.01.30",
             TITLE: "ITスクールRareTECHの受講生が300名を突破しました。",
             BADGE: "RareTECH",
@@ -136,4 +128,6 @@ export default {
         DOCUMENT: "資料ダウンロード",
         COPYRIGHT: "©︎ 2023 var Inc.",
     }
-};
+}
+
+export default TRANSLATION

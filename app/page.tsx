@@ -1,11 +1,10 @@
-import Button from "./components/Button";
-import NewsItem from "./components/NewsItem";
-import ServiceItem from "./components/ServiceItem";
-import ServiceSubItem from "./components/ServiceSubItem";
-import CtaItem from "./components/CtaItem";
-import SectionTitle from "./components/SectionTitle";
-
-import TRANSLATION from "./constants/TRANSLATE";
+import Button from "@/app/components/button";
+import NewsItem from "@/app/components/item/news-item";
+import ServiceItem from "@/app/components/item/service-item";
+import ServiceSubItem from "@/app/components/item/service-sub-item";
+import CtaItem from "@/app/components/item/cta-item";
+import SectionTitle from "@/app/components/section/section-title";
+import TRANSLATION from "@/app/constants/translates";
 
 export default function Home() {
   return (
@@ -23,9 +22,14 @@ export default function Home() {
               {TRANSLATION.HEADER.SUBTITLE_SP}
             </h3>
           </div>
-          <Button className="mt-[64px]" type="primary" size="xl">
-            {TRANSLATION.HEADER.VIEW_BUSINESS_DETAIL}
-          </Button>
+          <div className="mt-[64px]">
+            <Button className="hidden xl:block" type="primary" size="xl">
+              {TRANSLATION.HEADER.VIEW_BUSINESS_DETAIL}
+            </Button>
+            <Button className="xl:hidden" type="primary">
+              {TRANSLATION.HEADER.VIEW_BUSINESS_DETAIL}
+            </Button>
+          </div>
         </div>
       </section>
       <section className="px-[16px] md:px-[120px] xl:px-[240px] 2xl:px-[480px] py-[80px] bg-black">
@@ -41,14 +45,14 @@ export default function Home() {
           >
             <ServiceSubItem
               type="primary"
+              imageSrc="/img/05.png"
               title={TRANSLATION.SERVICES.IT_SCHOOL_RARETECH.TITLE}
-              image={TRANSLATION.SERVICES.IT_SCHOOL_RARETECH.IMAGE}
               description={TRANSLATION.SERVICES.IT_SCHOOL_RARETECH.DESCRIPTION}
             />
             <ServiceSubItem
               type="secondary"
+              imageSrc="/img/06.png"
               title={TRANSLATION.SERVICES.INFRASTRUCTURE_LEARNING_SERVICE_ENVADER.TITLE}
-              image={TRANSLATION.SERVICES.INFRASTRUCTURE_LEARNING_SERVICE_ENVADER.IMAGE}
               description={TRANSLATION.SERVICES.INFRASTRUCTURE_LEARNING_SERVICE_ENVADER.DESCRIPTION}
             />
           </ServiceItem>
@@ -58,14 +62,14 @@ export default function Home() {
           >
             <ServiceSubItem
               type="primary"
+              imageSrc="/img/07.png"
               title={TRANSLATION.SERVICES.SYSTEM_APPLICATION_DEVELOPMENT.TITLE}
-              image={TRANSLATION.SERVICES.SYSTEM_APPLICATION_DEVELOPMENT.IMAGE}
               description={TRANSLATION.SERVICES.SYSTEM_APPLICATION_DEVELOPMENT.DESCRIPTION}
             />
             <ServiceSubItem
               type="secondary"
+              imageSrc="/img/08.png"
               title={TRANSLATION.SERVICES.WEB_PRODUCTION.TITLE}
-              image={TRANSLATION.SERVICES.WEB_PRODUCTION.IMAGE}
               description={TRANSLATION.SERVICES.WEB_PRODUCTION.DESCRIPTION}
             />
           </ServiceItem>
@@ -78,43 +82,43 @@ export default function Home() {
         />
         <div className="xl:grid xl:grid-cols-3 gap-[24px]">
           <NewsItem
+            imageSrc="/img/09.png"
             badge={TRANSLATION.NEWS.HOMEPAGE.BADGE}
-            image={TRANSLATION.NEWS.HOMEPAGE.IMAGE}
             date={TRANSLATION.NEWS.HOMEPAGE.DATE}
             title={TRANSLATION.NEWS.HOMEPAGE.TITLE}
             badgeClass="bg-black"
           />
           <NewsItem
+            imageSrc="/img/10.png"
             badge={TRANSLATION.NEWS.TRAINING_PLAN.BADGE}
-            image={TRANSLATION.NEWS.TRAINING_PLAN.IMAGE}
             date={TRANSLATION.NEWS.TRAINING_PLAN.DATE}
             title={TRANSLATION.NEWS.TRAINING_PLAN.TITLE}
             badgeClass="bg-blue"
           />
           <NewsItem
+            imageSrc="/img/11.png"
             badge={TRANSLATION.NEWS.ENVADER.BADGE}
-            image={TRANSLATION.NEWS.ENVADER.IMAGE}
             date={TRANSLATION.NEWS.ENVADER.DATE}
             title={TRANSLATION.NEWS.ENVADER.TITLE}
             badgeClass="bg-aqua"
           />
           <NewsItem
+            imageSrc="/img/12.png"
             badge={TRANSLATION.NEWS.SYSTEM_AND_APPLICATION_DEVELOPMENT.BADGE}
-            image={TRANSLATION.NEWS.SYSTEM_AND_APPLICATION_DEVELOPMENT.IMAGE}
             date={TRANSLATION.NEWS.SYSTEM_AND_APPLICATION_DEVELOPMENT.DATE}
             title={TRANSLATION.NEWS.SYSTEM_AND_APPLICATION_DEVELOPMENT.TITLE}
             badgeClass="bg-orange"
           />
           <NewsItem
+            imageSrc="/img/13.png"
             badge={TRANSLATION.NEWS.WEB_PRODUCTION.BADGE}
-            image={TRANSLATION.NEWS.WEB_PRODUCTION.IMAGE}
             date={TRANSLATION.NEWS.WEB_PRODUCTION.DATE}
             title={TRANSLATION.NEWS.WEB_PRODUCTION.TITLE}
             badgeClass="bg-purple"
           />
           <NewsItem
+            imageSrc="/img/14.png"
             badge={TRANSLATION.NEWS.STUDENTS_ATTENDING.BADGE}
-            image={TRANSLATION.NEWS.STUDENTS_ATTENDING.IMAGE}
             date={TRANSLATION.NEWS.STUDENTS_ATTENDING.DATE}
             title={TRANSLATION.NEWS.STUDENTS_ATTENDING.TITLE}
             badgeClass="bg-blue"
