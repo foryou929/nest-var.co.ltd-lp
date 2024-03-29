@@ -17,7 +17,7 @@ const ServiceSubItem: React.FC<ButtonComponentProps> = ({ type, title, imageSrc,
             <div className={
                 clsx(
                     "flex-none xl:w-[400px] flex flex-col gap-[8px]",
-                    type == "secondary" ? "" : "xl:order-2"
+                    type == "primary" ? "" : "xl:order-2"
                 )}>
                 <h3 className="xl:hidden text-2xl font-bold text-white">{title}</h3>
                 <Image className="w-full rounded-[16px]" alt="service_image" src={imageSrc} width={480} height={270} />

@@ -14,11 +14,11 @@ export default function Home() {
           <h2 className="text-2xl xl:text-6xl font-bold">
             {TRANSLATION.HEADER.TITLE}
           </h2>
-          <div className="mt-[24px] text-xl">
+          <div className="mt-[24px] xl:text-xl">
             <h3 className="hidden xl:block">
               {TRANSLATION.HEADER.SUBTITLE_LP}
             </h3>
-            <h3 className="xl:hidden mt-[24px]">
+            <h3 className="xl:hidden">
               {TRANSLATION.HEADER.SUBTITLE_SP}
             </h3>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
           title={TRANSLATION.NEWS.TITLE}
           subtitle={TRANSLATION.NEWS.SUBTITLE}
         />
-        <div className="xl:grid xl:grid-cols-3 gap-[24px]">
+        <div className="mt-[64px] xl:mt-[40px] block xl:grid xl:grid-cols-3 gap-[24px]">
           <NewsItem
             imageSrc="/img/09.png"
             badge={TRANSLATION.NEWS.HOMEPAGE.BADGE}
@@ -132,7 +132,7 @@ export default function Home() {
       </section>
       <section className="relative h-[1082px] xl:h-[748px] px-[16px] md:px-[60px] xl:px-[120px] 2xl:px-[320px] bg-[url('/img/04.png')] sm:bg-[url('/img/03.png')]">
         <div className="py-[120px] flex flex-col gap-[64px] xl:gap-[80px]">
-          <h1 className="text-xl xl:text:5xl font-bold text-white text-center">
+          <h1 className="text-xl xl:text-5xl font-bold text-white text-center">
             {TRANSLATION.CTA.TITLE}
           </h1>
           <div className="flex-grow xl:grid xl:grid-cols-2">

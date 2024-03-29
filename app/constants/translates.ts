@@ -18,7 +18,7 @@ const TRANSLATION = {
     SERVICES: {
         TITLE: "Service",
         SUBTITLE: "事業内容",
-        DESCRIPTION: "ITエンジニア教育事業・受託開発事業をはじめとし、テクノロジーを活用した各種サービスを提供しております。",
+        DESCRIPTION: "ITエンジニア教育事業・受託開発事業をはじめとし、テクノロジーを活用した各種\nサービスを提供しております。",
         SEE_DETAILS: "詳しく見る",
         EDUCATION: {
             TITLE: "Education",

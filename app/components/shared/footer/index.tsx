@@ -8,8 +8,8 @@ import { inter } from "@/app/constants/font";
 
 const Footer = () => {
     return (
-        <footer className="px-[16px] md:px-[60px] xl:px-[120px] 2xl:px-[320px] py-[80px] bg-black flex flex-col gap-[8px]">
-            <div className="flex flex-col xl:flex-row">
+        <footer className="px-[16px] md:px-[60px] xl:px-[120px] 2xl:px-[320px] pt-[80px] pb-[24px] bg-black flex flex-col gap-[8px]">
+            <div className="flex flex-col xl:flex-row xl:justify-between">
                 <div className="xl:w-[425px] flex flex-col gap-[8px]">
                     <Image alt="footer-logo" src="/footer-logo.png" width={64} height={64} />
                     <h4 className="text-xl font-bold text-white">

@@ -13,10 +13,10 @@ const Menu: React.FC<MenuComponentProps> = ({ className, isToggleMenu }) => {
     return (
         <div className={clsx(
             isToggleMenu ? "block px-[16px] xl:px-[40px]" : "hidden",
-            "xl:flex gap-[40px] flex-col xl:flex-row",
+            "mt-[40px] xl:mt-0 xl:flex gap-[40px] flex-col xl:flex-row",
             className
         )}>
-            <ul className="flex mt-[24px] xl:mt-0 flex-col xl:flex-row gap-[24px] xl:items-center">
+            <ul className="flex flex-col xl:flex-row gap-[24px] xl:items-center">
                 <li className="font-bold">
                     <Link href={"/service"}>
                         {TRANSLATION.MENU.SERVICE}
