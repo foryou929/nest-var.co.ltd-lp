@@ -1,8 +1,10 @@
+import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
 
 import Button from "@/app/components/button"
 import TRANSLATION from "@/app/constants/translates";
+import { inter } from "@/app/constants/font";
 
 const Footer = () => {
     return (
@@ -32,16 +34,16 @@ const Footer = () => {
                             <h6 className="font-bold text-white">
                                 {TRANSLATION.FOOTER.SERVICE}
                             </h6>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.SERVICES.IT_SCHOOL_RARETECH}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.SERVICES.INFRASTRUCTURE_LEARNING_SERVICE_ENVADER}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.SERVICES.SYSTEM_APPLICATION_DEVELOPMENT}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.SERVICES.WEB_PRODUCTION}
                             </p>
                         </div>
@@ -49,19 +51,19 @@ const Footer = () => {
                             <h6 className="font-bold text-white">
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCE}
                             </h6>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.MISSION}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.VISION}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.VALUE}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.LIST_OF_OFFICERS}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.CORPORATE_INTELLIGENCES.COMPANY_PROFILE}
                             </p>
                         </div>
@@ -69,10 +71,10 @@ const Footer = () => {
                             <h6 className="font-bold text-white">
                                 {TRANSLATION.FOOTER.RECRUIT}
                             </h6>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.RECRUITS.APPLICATION_REQUIREMENTS}
                             </p>
-                            <p className="text-gray-800">
+                            <p className={clsx(inter.className, "text-gray-800")}>
                                 {TRANSLATION.FOOTER.RECRUITS.REPRESENTATIVE_MESSAGE}
                             </p>
                         </div>
@@ -89,17 +91,21 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex flex-col xl:flex-row gap-[8px] justify-end">
-                        <Button className="w-full xl:w-[240px]" type="primary">
-                            {TRANSLATION.FOOTER.CONTACT}
-                        </Button>
-                        <Button className="w-full xl:w-[240px]" type="secondary">
-                            {TRANSLATION.FOOTER.DOCUMENT}
-                        </Button>
+                        <Link href="/contanct">
+                            <Button className="w-full xl:w-[240px]" type="primary">
+                                {TRANSLATION.FOOTER.CONTACT}
+                            </Button>
+                        </Link>
+                        <Link href="/document">
+                            <Button className="w-full xl:w-[240px]" type="secondary">
+                                {TRANSLATION.FOOTER.DOCUMENT}
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>
             <div className="mt-[40px] text-center">
-                <span className="text-xs text-bold text-gray-800">
+                <span className={clsx(inter.className, "text-xs text-bold text-gray-800")}>
                     {TRANSLATION.FOOTER.COPYRIGHT}
                 </span>
             </div>
