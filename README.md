@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# var Co., Ltd.
+
 ## Getting Started
 
 First, run the development server:
@@ -21,7 +23,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Demonstration
-
-<img src="https://github.com/foryou929/nest-var.co.ltd-lp/blob/main/public/lp.png" style="width: 48px">
-
-<img src="https://github.com/foryou929/nest-var.co.ltd-lp/blob/main/public/sp.png" style="width: 48px">
+<div align="center">
+    <img src="https://github.com/foryou929/nest-var.co.ltd-lp/blob/main/public/lp.png">
+    <img src="https://github.com/foryou929/nest-var.co.ltd-lp/blob/main/public/sp.png">
+</div>
