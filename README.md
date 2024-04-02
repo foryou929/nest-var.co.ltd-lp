@@ -25,5 +25,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Demonstration
 <div align="center">
     <img src="https://github.com/foryou929/nest-var.co.ltd-lp/blob/main/public/lp.png">
-    <img src="https://github.com/foryou929/nest-var.co.ltd-lp/blob/main/public/sp.png">
 </div>
